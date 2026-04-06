@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0053)file:///C:/Users/arpit/Downloads/vahaan-rental_1.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vahaan — Rent Vehicles, The Honest Way</title>
-<link rel="icon" type="image/jpg" href="vah.jpg">
-<link href="./Vahaan — Rent Vehicles, The Honest Way_files/css2" rel="stylesheet">
+<title>RentEase — Rent Vehicles, The Honest Way</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 <style>
 :root {
   --saffron: #FF6B1A;
@@ -688,32 +687,6 @@ section { padding: 80px 40px; }
   display: inline-block;
 }
 
-/* ───── TESTIMONIALS ───── */
-.testimonials { background: #fff; }
-.testi-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px; margin-top: 40px;
-}
-.testi-card {
-  background: var(--cream);
-  border: 1.5px solid var(--border);
-  border-radius: 18px; padding: 24px;
-}
-.testi-stars { color: var(--gold); font-size: 1rem; margin-bottom: 12px; }
-.testi-text {
-  font-size: 0.9rem; line-height: 1.7; color: var(--text-dark);
-  margin-bottom: 16px; font-style: italic;
-}
-.testi-author { display: flex; align-items: center; gap: 12px; }
-.testi-avatar {
-  width: 40px; height: 40px; border-radius: 50%;
-  background: var(--saffron); color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem;
-}
-.testi-name { font-weight: 700; font-size: 0.875rem; }
-.testi-city { font-size: 0.78rem; color: var(--text-muted); }
-
 /* ───── FOOTER ───── */
 footer {
   background: var(--navy);
@@ -899,19 +872,17 @@ footer {
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
-  <div class="logo">Vah<span>aan</span></div>
+  <div class="logo">Rent<span>Ease</span></div>
   <div class="nav-links">
-    <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#search">Find Vehicles</a>
-    <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#market-rates">Market Rates</a>
-    <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#paperwork">Paperwork Guide</a>
-    <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#list">List Your Vehicle</a>
-    <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#list" class="nav-cta">Earn with Vahaan</a>
+    <a href="#search">Find Vehicles</a>
+    <a href="#market-rates">Market Rates</a>
+    <a href="#paperwork">Paperwork Guide</a>
+    <a href="#list">List Your Vehicle</a>
+    <a href="#list" class="nav-cta">Earn with RentEase</a>
   </div>
 </nav>
 
-<!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-bg-pattern"></div>
   <div class="hero-badge">🇮🇳 Made for India &nbsp;·&nbsp; Transparent Pricing</div>
@@ -920,14 +891,14 @@ footer {
 
   <div class="search-box" id="search">
     <div class="search-tabs">
-      <button class="stab active" onclick="switchTab(this, &#39;rent&#39;)">🔍 Find a Ride</button>
-      <button class="stab" onclick="switchTab(this, &#39;shop&#39;)">🏪 Browse Shops</button>
-      <button class="stab" onclick="switchTab(this, &#39;private&#39;)">👤 Private Owners</button>
+      <button class="stab active" onclick="switchTab(this, 'rent')">🔍 Find a Ride</button>
+      <button class="stab" onclick="switchTab(this, 'shop')">🏪 Browse Shops</button>
+      <button class="stab" onclick="switchTab(this, 'private')">👤 Private Owners</button>
     </div>
     <div class="search-grid">
       <div class="sfield">
         <label>📍 Location</label>
-        <input type="text" placeholder="e.g. Connaught Place, Delhi" id="loc-input">
+        <input type="text" placeholder="e.g. Rajpur Road, Dehradun" id="loc-input">
       </div>
       <div class="sfield">
         <label>🚗 Vehicle Type</label>
@@ -970,16 +941,14 @@ footer {
   </div>
 </section>
 
-<!-- STATS -->
 <div class="stats-band">
-  <div class="stat-item"><div class="stat-num">3,200+</div><div class="stat-label">Verified Shops &amp; Owners</div></div>
+  <div class="stat-item"><div class="stat-num">3,200+</div><div class="stat-label">Verified Shops & Owners</div></div>
   <div class="stat-item"><div class="stat-num">48</div><div class="stat-label">Cities in India</div></div>
   <div class="stat-item"><div class="stat-num">₹0</div><div class="stat-label">Hidden Charges</div></div>
   <div class="stat-item"><div class="stat-num">100%</div><div class="stat-label">Paperwork Transparent</div></div>
   <div class="stat-item"><div class="stat-num">4.8★</div><div class="stat-label">Avg. Booking Rating</div></div>
 </div>
 
-<!-- HOW IT WORKS -->
 <section class="hiw-bg" id="how">
   <div class="sec-label">Simple Process</div>
   <h2 class="sec-title">From search to keys — in 4 steps.</h2>
@@ -1006,13 +975,12 @@ footer {
     <div class="hiw-card">
       <div class="hiw-num">04</div>
       <div class="hiw-icon">🔑</div>
-      <h4>Book &amp; Go</h4>
-      <p>Pay a small deposit online. Walk in with your Aadhaar &amp; driving licence. Pick up the vehicle. Done.</p>
+      <h4>Book & Go</h4>
+      <p>Pay a small deposit online. Walk in with your Aadhaar & driving licence. Pick up the vehicle. Done.</p>
     </div>
   </div>
 </section>
 
-<!-- MAP & SHOP LISTINGS -->
 <section class="map-section" id="shops">
   <div class="sec-label">Near You</div>
   <h2 class="sec-title">Find verified shops on the map.</h2>
@@ -1020,9 +988,8 @@ footer {
 
   <div class="map-container">
     <div class="map-visual">
-      <div class="map-label"><div class="live-dot"></div>Live Map — Delhi NCR</div>
+      <div class="map-label"><div class="live-dot"></div>Live Map — Dehradun, Uttarakhand</div>
 
-      <!-- Simulated map pins -->
       <div class="map-pin" style="left:22%;top:38%">
         <div class="pin-body" style="background:#059669">
           <div class="pin-inner">🏪</div>
@@ -1038,7 +1005,7 @@ footer {
           <div class="pin-inner">🏍️</div>
         </div>
         <div class="pin-popup">
-          <div class="pp-name">RideEasy Karol Bagh</div>
+          <div class="pp-name">RideEasy Paltan Bazaar</div>
           <div class="pp-price">Bike: <strong>₹350/6hr</strong></div>
           <div class="pp-tag">At market rate</div>
         </div>
@@ -1084,27 +1051,25 @@ footer {
         </div>
       </div>
 
-      <!-- Roads simulation -->
       <svg style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="45%" x2="100%" y2="45%" stroke="rgba(255,255,255,0.06)" stroke-width="12"></line>
-        <line x1="0" y1="70%" x2="100%" y2="70%" stroke="rgba(255,255,255,0.04)" stroke-width="8"></line>
-        <line x1="30%" y1="0" x2="30%" y2="100%" stroke="rgba(255,255,255,0.06)" stroke-width="10"></line>
-        <line x1="65%" y1="0" x2="65%" y2="100%" stroke="rgba(255,255,255,0.04)" stroke-width="7"></line>
-        <line x1="0" y1="45%" x2="30%" y2="25%" stroke="rgba(255,255,255,0.04)" stroke-width="6"></line>
-        <line x1="30%" y1="25%" x2="65%" y2="45%" stroke="rgba(255,255,255,0.04)" stroke-width="6"></line>
-        <circle cx="30%" cy="45%" r="4" fill="rgba(255,255,255,0.15)"></circle>
-        <circle cx="65%" cy="45%" r="4" fill="rgba(255,255,255,0.15)"></circle>
+        <line x1="0" y1="45%" x2="100%" y2="45%" stroke="rgba(255,255,255,0.06)" stroke-width="12"/>
+        <line x1="0" y1="70%" x2="100%" y2="70%" stroke="rgba(255,255,255,0.04)" stroke-width="8"/>
+        <line x1="30%" y1="0" x2="30%" y2="100%" stroke="rgba(255,255,255,0.06)" stroke-width="10"/>
+        <line x1="65%" y1="0" x2="65%" y2="100%" stroke="rgba(255,255,255,0.04)" stroke-width="7"/>
+        <line x1="0" y1="45%" x2="30%" y2="25%" stroke="rgba(255,255,255,0.04)" stroke-width="6"/>
+        <line x1="30%" y1="25%" x2="65%" y2="45%" stroke="rgba(255,255,255,0.04)" stroke-width="6"/>
+        <circle cx="30%" cy="45%" r="4" fill="rgba(255,255,255,0.15)"/>
+        <circle cx="65%" cy="45%" r="4" fill="rgba(255,255,255,0.15)"/>
         <text x="10" y="92%" fill="rgba(255,255,255,0.2)" font-size="11" font-family="DM Sans">🟢 Below market &nbsp; 🟠 At market &nbsp; 🔴 Above market</text>
       </svg>
     </div>
 
-    <!-- Shop list -->
     <div class="shop-list">
       <div class="shop-card active" onclick="selectShop(this)">
         <div class="shop-card-top">
           <div>
-            <div class="shop-name">🏪 Sharma Rentals — Lajpat Nagar</div>
-            <div class="shop-loc">📍 Lajpat Nagar, South Delhi · 1.2 km away</div>
+            <div class="shop-name">🏪 Sharma Rentals — Rajpur Road</div>
+            <div class="shop-loc">📍 Rajpur Road, North Dehradun · 1.2 km away</div>
           </div>
           <div class="shop-stars">★★★★★ 4.9</div>
         </div>
@@ -1123,8 +1088,8 @@ footer {
       <div class="shop-card" onclick="selectShop(this)">
         <div class="shop-card-top">
           <div>
-            <div class="shop-name">🏍️ RideEasy — Karol Bagh</div>
-            <div class="shop-loc">📍 Karol Bagh, Central Delhi · 3.4 km away</div>
+            <div class="shop-name">🏍️ RideEasy — Paltan Bazaar</div>
+            <div class="shop-loc">📍 Paltan Bazaar, Central Dehradun · 3.4 km away</div>
           </div>
           <div class="shop-stars">★★★★☆ 4.3</div>
         </div>
@@ -1143,8 +1108,8 @@ footer {
       <div class="shop-card" onclick="selectShop(this)">
         <div class="shop-card-top">
           <div>
-            <div class="shop-name">🚗 Metro Wheels — Dwarka</div>
-            <div class="shop-loc">📍 Dwarka Sector 10, West Delhi · 5.8 km</div>
+            <div class="shop-name">🚗 Metro Wheels — Clement Town</div>
+            <div class="shop-loc">📍 Clement Town, South Dehradun · 5.8 km</div>
           </div>
           <div class="shop-stars">★★★★☆ 4.1</div>
         </div>
@@ -1164,7 +1129,7 @@ footer {
         <div class="shop-card-top">
           <div>
             <div class="shop-name">👤 Priya S. — Honda Activa 6G</div>
-            <div class="shop-loc">📍 Vasant Kunj · 2.1 km away · Private Owner</div>
+            <div class="shop-loc">📍 Vasant Vihar · 2.1 km away · Private Owner</div>
           </div>
           <div class="shop-stars">★★★★★ 5.0</div>
         </div>
@@ -1173,17 +1138,17 @@ footer {
           <span class="price-badge shop-price-low">Owner: ₹150/6hr ↓ 25%</span>
         </div>
         <div class="docs-row">
-          <span class="doc-tag doc-yes">✓ Vahaan Rental Agreement</span>
+          <span class="doc-tag doc-yes">✓ RentEase Agreement</span>
           <span class="doc-tag doc-yes">✓ Vehicle Insurance Active</span>
-          <span class="doc-tag doc-yes">✓ RC Verified by Vahaan</span>
+          <span class="doc-tag doc-yes">✓ RC Verified by RentEase</span>
         </div>
       </div>
 
       <div class="shop-card" onclick="selectShop(this)">
         <div class="shop-card-top">
           <div>
-            <div class="shop-name">⚡ GreenRide EV Hub — Gurugram</div>
-            <div class="shop-loc">📍 Cyber City, Gurugram · 12.3 km away</div>
+            <div class="shop-name">⚡ GreenRide EV Hub — Sahastradhara Road</div>
+            <div class="shop-loc">📍 IT Park, Sahastradhara Road · 12.3 km away</div>
           </div>
           <div class="shop-stars">★★★★★ 4.8</div>
         </div>
@@ -1202,7 +1167,6 @@ footer {
   </div>
 </section>
 
-<!-- DURATION SECTION -->
 <section class="duration-section" id="durations">
   <div class="sec-label">Flexible Bookings</div>
   <h2 class="sec-title">Rent for as little as 6 hours.</h2>
@@ -1259,7 +1223,6 @@ footer {
   </div>
 </section>
 
-<!-- VEHICLES SECTION -->
 <section class="vehicles-section" id="vehicles">
   <div class="sec-label">Available Now</div>
   <h2 class="sec-title">Browse nearby vehicles.</h2>
@@ -1277,14 +1240,14 @@ footer {
 
   <div class="vehicles-grid" id="vehicles-grid">
 
-    <div class="vehicle-card" onclick="openBooking(&#39;Honda Activa 6G&#39;, &#39;🛵&#39;, &#39;Automatic Scooter&#39;, 200, &#39;Sharma Rentals&#39;)">
+    <div class="vehicle-card" onclick="openBooking('Honda Activa 6G', '🛵', 'Automatic Scooter', 200, 'Sharma Rentals')">
       <div class="vc-img">🛵<span class="vc-verified">✓ Verified</span></div>
       <div class="vc-body">
         <div class="vc-header">
           <div class="vc-name">Honda Activa 6G</div>
           <div class="vc-rating"><span>★★★★★</span> 4.9 (82)</div>
         </div>
-        <div class="vc-type">🏪 Sharma Rentals · Lajpat Nagar</div>
+        <div class="vc-type">🏪 Sharma Rentals · Rajpur Road</div>
         <div class="vc-pricing">
           <div class="vc-market">Market avg: <strong>₹200/6hr</strong></div>
           <div class="vc-tiers">
@@ -1305,14 +1268,14 @@ footer {
       </div>
     </div>
 
-    <div class="vehicle-card" onclick="openBooking(&#39;Royal Enfield Classic 350&#39;, &#39;🏍️&#39;, &#39;Cruiser Motorcycle&#39;, 600, &#39;RideEasy Karol Bagh&#39;)">
+    <div class="vehicle-card" onclick="openBooking('Royal Enfield Classic 350', '🏍️', 'Cruiser Motorcycle', 600, 'RideEasy Paltan Bazaar')">
       <div class="vc-img">🏍️<span class="vc-verified">✓ Verified</span></div>
       <div class="vc-body">
         <div class="vc-header">
           <div class="vc-name">Royal Enfield 350</div>
           <div class="vc-rating"><span>★★★★☆</span> 4.5 (41)</div>
         </div>
-        <div class="vc-type">🏪 RideEasy · Karol Bagh</div>
+        <div class="vc-type">🏪 RideEasy · Paltan Bazaar</div>
         <div class="vc-pricing">
           <div class="vc-market">Market avg: <strong>₹600/6hr</strong></div>
           <div class="vc-tiers">
@@ -1333,14 +1296,14 @@ footer {
       </div>
     </div>
 
-    <div class="vehicle-card" onclick="openBooking(&#39;Maruti Swift&#39;, &#39;🚗&#39;, &#39;Hatchback · Petrol&#39;, 1100, &#39;Metro Wheels Dwarka&#39;)">
+    <div class="vehicle-card" onclick="openBooking('Maruti Swift', '🚗', 'Hatchback · Petrol', 1100, 'Metro Wheels Clement Town')">
       <div class="vc-img">🚗<span class="vc-verified">✓ Verified</span></div>
       <div class="vc-body">
         <div class="vc-header">
           <div class="vc-name">Maruti Swift</div>
           <div class="vc-rating"><span>★★★★☆</span> 4.2 (29)</div>
         </div>
-        <div class="vc-type">🏪 Metro Wheels · Dwarka</div>
+        <div class="vc-type">🏪 Metro Wheels · Clement Town</div>
         <div class="vc-pricing">
           <div class="vc-market">Market avg: <strong>₹1,100/6hr</strong></div>
           <div class="vc-tiers">
@@ -1361,14 +1324,14 @@ footer {
       </div>
     </div>
 
-    <div class="vehicle-card" onclick="openBooking(&#39;Honda Activa 5G&#39;, &#39;🛵&#39;, &#39;Automatic Scooter — Private&#39;, 200, &#39;Priya S. (Private Owner)&#39;)">
+    <div class="vehicle-card" onclick="openBooking('Honda Activa 5G', '🛵', 'Automatic Scooter — Private', 200, 'Priya S. (Private Owner)')">
       <div class="vc-img">🛵<span class="vc-private">👤 Private</span><span class="vc-verified">✓ Verified</span></div>
       <div class="vc-body">
         <div class="vc-header">
           <div class="vc-name">Honda Activa 5G</div>
           <div class="vc-rating"><span>★★★★★</span> 5.0 (14)</div>
         </div>
-        <div class="vc-type">👤 Priya S. · Vasant Kunj · Private Owner</div>
+        <div class="vc-type">👤 Priya S. · Vasant Vihar · Private Owner</div>
         <div class="vc-pricing">
           <div class="vc-market">Market avg: <strong>₹200/6hr</strong></div>
           <div class="vc-tiers">
@@ -1380,7 +1343,7 @@ footer {
         <div class="vc-docs">
           <div class="vc-docs-title">Paperwork Provided</div>
           <div class="vc-docs-row">
-            <span class="doc-tag doc-yes">✓ Vahaan Agreement</span>
+            <span class="doc-tag doc-yes">✓ RentEase Agreement</span>
             <span class="doc-tag doc-yes">✓ Insurance</span>
             <span class="doc-tag doc-yes">✓ RC Verified</span>
           </div>
@@ -1389,14 +1352,14 @@ footer {
       </div>
     </div>
 
-    <div class="vehicle-card" onclick="openBooking(&#39;Tata Nexon EV&#39;, &#39;⚡&#39;, &#39;Electric SUV&#39;, 1400, &#39;GreenRide EV Hub&#39;)">
+    <div class="vehicle-card" onclick="openBooking('Tata Nexon EV', '⚡', 'Electric SUV', 1400, 'GreenRide EV Hub')">
       <div class="vc-img">⚡<span class="vc-verified">✓ Verified</span></div>
       <div class="vc-body">
         <div class="vc-header">
           <div class="vc-name">Tata Nexon EV</div>
           <div class="vc-rating"><span>★★★★★</span> 4.8 (56)</div>
         </div>
-        <div class="vc-type">🏪 GreenRide EV Hub · Gurugram</div>
+        <div class="vc-type">🏪 GreenRide EV Hub · Sahastradhara Road</div>
         <div class="vc-pricing">
           <div class="vc-market">Market avg: <strong>₹1,400/6hr</strong></div>
           <div class="vc-tiers">
@@ -1417,14 +1380,14 @@ footer {
       </div>
     </div>
 
-    <div class="vehicle-card" onclick="openBooking(&#39;Mahindra Scorpio N&#39;, &#39;🚙&#39;, &#39;SUV · Diesel&#39;, 1800, &#39;Capital Drive SUVs&#39;)">
+    <div class="vehicle-card" onclick="openBooking('Mahindra Scorpio N', '🚙', 'SUV · Diesel', 1800, 'Capital Drive SUVs')">
       <div class="vc-img">🚙<span class="vc-verified">✓ Verified</span></div>
       <div class="vc-body">
         <div class="vc-header">
           <div class="vc-name">Mahindra Scorpio N</div>
           <div class="vc-rating"><span>★★★★☆</span> 4.6 (33)</div>
         </div>
-        <div class="vc-type">🏪 Capital Drive · Rohini</div>
+        <div class="vc-type">🏪 Capital Drive · Prem Nagar</div>
         <div class="vc-pricing">
           <div class="vc-market">Market avg: <strong>₹1,800/6hr</strong></div>
           <div class="vc-tiers">
@@ -1448,23 +1411,22 @@ footer {
   </div>
 </section>
 
-<!-- MARKET PRICE TRANSPARENCY -->
 <section class="pricing-section" id="market-rates">
   <div class="sec-label">Price Intelligence</div>
   <h2 class="sec-title">Know the market rate<br>before you bargain.</h2>
   <p class="sec-sub">We aggregate real pricing data from hundreds of shops across India, updated weekly. You always know what's fair.</p>
 
   <div class="market-compare">
-    <h3>Delhi NCR Market Rates — April 2026 <span class="market-tag">LIVE DATA</span></h3>
+    <h3>Dehradun Market Rates — April 2026 <span class="market-tag">LIVE DATA</span></h3>
     <table class="price-table">
-      <tbody><tr>
+      <tr>
         <th>Vehicle Type</th>
         <th>Market Avg (6hr)</th>
         <th>Lowest Found</th>
         <th>Highest Found</th>
         <th>Your Savings</th>
       </tr>
-      </tbody><tbody>
+      <tbody>
         <tr class="price-row">
           <td class="td-vehicle">🛵 Scooter / Scooty</td>
           <td class="td-market">₹200</td>
@@ -1526,7 +1488,6 @@ footer {
   </div>
 </section>
 
-<!-- PAPERWORK TRANSPARENCY -->
 <section class="docs-section" id="paperwork">
   <div class="sec-label">Document Transparency</div>
   <h2 class="sec-title">Know exactly what paper<br>you should receive.</h2>
@@ -1559,7 +1520,7 @@ footer {
     </div>
     <div class="doc-card">
       <div class="doc-card-icon">🔧</div>
-      <h4>Damage &amp; Wear Policy</h4>
+      <h4>Damage & Wear Policy</h4>
       <p>Defines what counts as "damage" vs normal wear. Avoid shops that keep your entire deposit for a minor scratch.</p>
       <div class="doc-required req-warn">⚠️ RECOMMENDED</div>
     </div>
@@ -1578,7 +1539,7 @@ footer {
     <div class="doc-card">
       <div class="doc-card-icon">📸</div>
       <h4>Pre-Rental Condition Photos</h4>
-      <p>Take photos or video of the vehicle before driving — especially dents, scratches, tyres. Vahaan prompts you to do this on pickup.</p>
+      <p>Take photos or video of the vehicle before driving — especially dents, scratches, tyres. RentEase prompts you to do this on pickup.</p>
       <div class="doc-required req-warn">⚠️ DO THIS ALWAYS</div>
     </div>
   </div>
@@ -1587,14 +1548,13 @@ footer {
     <div class="alert-icon">⚠️</div>
     <div class="alert-text">
       <h4>What to do if a shop refuses to give any documents</h4>
-      <p>This is a red flag. Do not hand over your ID as "collateral" (this is illegal in India). Walk away from any shop that refuses to give a rental agreement. All verified shops on Vahaan are contractually required to provide at minimum: rental agreement, insurance copy, and RC xerox.</p>
+      <p>This is a red flag. Do not hand over your ID as "collateral" (this is illegal in India). Walk away from any shop that refuses to give a rental agreement. All verified shops on RentEase are contractually required to provide at minimum: rental agreement, insurance copy, and RC xerox.</p>
     </div>
   </div>
 </section>
 
-<!-- LIST YOUR VEHICLE -->
 <section class="list-section" id="list">
-  <div class="sec-label">Earn with Vahaan</div>
+  <div class="sec-label">Earn with RentEase</div>
   <h2 class="sec-title">Put your idle vehicle<br>to work.</h2>
   <p class="sec-sub">Whether you're a shop owner or an individual — list your vehicle and earn on your own terms.</p>
 
@@ -1610,7 +1570,7 @@ footer {
       <div class="list-benefit">
         <div class="lb-icon">📋</div>
         <div class="lb-text">
-          <h4>Vahaan handles all paperwork</h4>
+          <h4>RentEase handles all paperwork</h4>
           <p>We generate the rental agreement, provide insurance guidance, and handle the document trail — completely digital.</p>
         </div>
       </div>
@@ -1624,8 +1584,8 @@ footer {
       <div class="list-benefit">
         <div class="lb-icon">🔒</div>
         <div class="lb-text">
-          <h4>Vahaan Renter Protection</h4>
-          <p>If a renter damages your vehicle, Vahaan's Owner Protection Fund covers basic damage up to ₹10,000. Peace of mind included.</p>
+          <h4>RentEase Renter Protection</h4>
+          <p>If a renter damages your vehicle, RentEase's Owner Protection Fund covers basic damage up to ₹10,000. Peace of mind included.</p>
         </div>
       </div>
       <div class="list-benefit">
@@ -1667,7 +1627,7 @@ footer {
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label>Make &amp; Model</label>
+          <label>Make & Model</label>
           <input type="text" placeholder="e.g. Honda Activa 6G">
         </div>
         <div class="form-group">
@@ -1677,7 +1637,7 @@ footer {
       </div>
       <div class="form-group">
         <label>Your City / Area</label>
-        <input type="text" placeholder="e.g. Koramangala, Bengaluru">
+        <input type="text" placeholder="e.g. Garhi Cantt, Dehradun">
       </div>
       <div class="form-row">
         <div class="form-group">
@@ -1697,9 +1657,9 @@ footer {
       <div class="form-group">
         <label>Documents You Can Provide</label>
         <div class="docs-check-row">
-          <label class="doc-check"><input type="checkbox" checked=""> Rental Agreement (Vahaan standard template)</label>
-          <label class="doc-check"><input type="checkbox" checked=""> Insurance Copy</label>
-          <label class="doc-check"><input type="checkbox" checked=""> RC Photocopy</label>
+          <label class="doc-check"><input type="checkbox" checked> Rental Agreement (RentEase standard template)</label>
+          <label class="doc-check"><input type="checkbox" checked> Insurance Copy</label>
+          <label class="doc-check"><input type="checkbox" checked> RC Photocopy</label>
           <label class="doc-check"><input type="checkbox"> Damage Policy in Writing</label>
           <label class="doc-check"><input type="checkbox"> Fuel Level Document</label>
         </div>
@@ -1713,72 +1673,39 @@ footer {
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-  <div class="sec-label">Real Renters</div>
-  <h2 class="sec-title">People actually love<br>knowing the market rate.</h2>
-  <div class="testi-grid">
-    <div class="testi-card">
-      <div class="testi-stars">★★★★★</div>
-      <div class="testi-text">"I rented a Activa in Manali and the shop wanted ₹400 for 6hrs. Vahaan showed me market rate was ₹230. I bargained down to ₹260. This app literally saved me money before I even opened my wallet."</div>
-      <div class="testi-author">
-        <div class="testi-avatar">A</div>
-        <div><div class="testi-name">Ananya Kapoor</div><div class="testi-city">Mumbai · Scooter Rental</div></div>
-      </div>
-    </div>
-    <div class="testi-card">
-      <div class="testi-stars">★★★★★</div>
-      <div class="testi-text">"Finally a platform that tells me what documents I should ask for. The shop in Jaipur tried to keep my Aadhaar card as 'collateral' and I knew immediately from Vahaan that this is illegal. Walked out."</div>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:var(--market)">R</div>
-        <div><div class="testi-name">Rohit Verma</div><div class="testi-city">Jaipur · Car Rental</div></div>
-      </div>
-    </div>
-    <div class="testi-card">
-      <div class="testi-stars">★★★★★</div>
-      <div class="testi-text">"I listed my Pulsar on Vahaan and earned ₹8,200 last month without doing anything. The renters are always ID-verified. My bike stays tracked via the app and I get paid directly to UPI."</div>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:var(--mint)">V</div>
-        <div><div class="testi-name">Vikram Nair</div><div class="testi-city">Bengaluru · Vehicle Owner</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
 <footer>
   <div class="footer-grid">
     <div>
-      <div class="footer-logo">Vah<span>aan</span></div>
+      <div class="footer-logo">Rent<span>Ease</span></div>
       <p class="footer-desc">India's most transparent vehicle rental platform. Know the market rate. Understand your paperwork. Rent with confidence.</p>
     </div>
     <div class="footer-col">
       <h5>For Renters</h5>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Find Vehicles</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Market Rate Guide</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Paperwork Checklist</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">How it Works</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Insurance Guide</a>
+      <a href="#">Find Vehicles</a>
+      <a href="#">Market Rate Guide</a>
+      <a href="#">Paperwork Checklist</a>
+      <a href="#">How it Works</a>
+      <a href="#">Insurance Guide</a>
     </div>
     <div class="footer-col">
       <h5>For Owners</h5>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">List Your Vehicle</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Earnings Calculator</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Owner Protection</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Shop Registration</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Pricing Strategy</a>
+      <a href="#">List Your Vehicle</a>
+      <a href="#">Earnings Calculator</a>
+      <a href="#">Owner Protection</a>
+      <a href="#">Shop Registration</a>
+      <a href="#">Pricing Strategy</a>
     </div>
     <div class="footer-col">
       <h5>Company</h5>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">About Vahaan</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Cities We're In</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Blog</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Help Centre</a>
-      <a href="file:///C:/Users/arpit/Downloads/vahaan-rental_1.html#">Contact Us</a>
+      <a href="#">About RentEase</a>
+      <a href="#">Cities We're In</a>
+      <a href="#">Blog</a>
+      <a href="#">Help Centre</a>
+      <a href="#">Contact Us</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2026 Vahaan Technologies Pvt. Ltd. · All rights reserved</p>
+    <p>© 2026 RentEase Technologies Pvt. Ltd. · All rights reserved</p>
     <div class="footer-badges">
       <span class="fbadge">🔒 SSL Secured</span>
       <span class="fbadge">✅ MCA Registered</span>
@@ -1787,7 +1714,6 @@ footer {
   </div>
 </footer>
 
-<!-- BOOKING MODAL -->
 <div class="modal-overlay" id="booking-modal">
   <div class="modal">
     <div class="modal-header">
@@ -1848,11 +1774,11 @@ footer {
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
           <div class="form-group" style="margin:0">
             <label>Date</label>
-            <input type="date" id="pickup-date" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:&#39;DM Sans&#39;,sans-serif">
+            <input type="date" id="pickup-date" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif">
           </div>
           <div class="form-group" style="margin:0">
             <label>Time</label>
-            <input type="time" id="pickup-time" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:&#39;DM Sans&#39;,sans-serif" value="10:00">
+            <input type="time" id="pickup-time" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif" value="10:00">
           </div>
         </div>
       </div>
@@ -1869,13 +1795,12 @@ footer {
       <button class="book-confirm-btn" onclick="nextStep()">Proceed to Verification →</button>
       <div class="insurance-note">
         <span>🛡️</span>
-        <span>Vahaan basic road coverage included. Rental agreement auto-generated at booking. You'll need: Aadhaar + Driving Licence at pickup.</span>
+        <span>RentEase basic road coverage included. Rental agreement auto-generated at booking. You'll need: Aadhaar + Driving Licence at pickup.</span>
       </div>
     </div>
   </div>
 </div>
 
-<!-- TOAST -->
 <div class="toast" id="toast">
   <div class="toast-title" id="toast-title">Booking Confirmed! 🎉</div>
   <div id="toast-body">Your rental agreement has been emailed. Show it at pickup.</div>
@@ -1999,6 +1924,5 @@ document.getElementById('booking-modal').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 </script>
-
-
-</body></html>
+</body>
+</html>
